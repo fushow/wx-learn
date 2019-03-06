@@ -1,1 +1,11 @@
 /* miniprogram/container/pages/index/index.wxss */
+page{
+    background: #fff;
+}
+.header{
+    padding: 80rpx;
+    line-height: 60rpx;
+}
+.header-name{
+    font-weight: bold;
+}

@@ -1,9 +1,15 @@
 <!--miniprogram/container/pages/index/index.wxml-->
 <view>
+    <view class="header">
+        <view class="header-name">lee</view>
+        <view>站在巨人的肩膀上,你可以看得更远!</view>
+    </view>
     <navigator url="/container/pages/navbar/navbar">
         <view class="lee-list">
-            <view>navbar</view>
-            <view><text class='iconfont icon-arrow lee-last'></text></view>
+            <view class="lee-list-item">
+                <view>navbar</view>
+                <view><text class='iconfont icon-arrow lee-last'></text></view>
+            </view>
         </view>
     </navigator>
 </view>

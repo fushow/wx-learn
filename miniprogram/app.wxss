@@ -1,10 +1,11 @@
 /**app.wxss**/
 @import "css/iconfont.wxss";
-page{
-    background: #e4e3e3;
-}
 /*列表*/
 .lee-list{
+    border-bottom: 2rpx solid #e4e3e3;
+    border-top: 2rpx solid #e4e3e3;
+}
+.lee-list-item{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,6 +13,9 @@ page{
     padding: 0 24rpx;
     border-bottom: 2rpx solid #e4e3e3;
     background: #fff;
+}
+.lee-list-item:last-child{
+    border-bottom: none;
 }
 .lee-head{
    font-size: 40rpx;
