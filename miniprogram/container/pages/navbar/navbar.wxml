@@ -1,0 +1,2 @@
+<!--miniprogram/container/pages/navbar/navbar.wxml-->
+<navbar tabs="{{tabs}}" labelPros="{{labelPros}}" activeIndex="{{activeIndex}}" bindtabevent="tabEvent"></navbar>

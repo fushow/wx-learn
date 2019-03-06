@@ -1,9 +1,9 @@
 <view class="navbar_box">
     <scroll-view class="scroll-view_H" scroll-x="true">
-        <view wx:for="{{tabs}}" wx:key="index" class="navbar_item {{activeIndex == index ? 'navbar_item_on' : ''}}"
+        <view wx:for="{{newList}}" wx:key="index" class="navbar_item {{activeIndex == index ? 'navbar_item_on' : ''}}"
               id="{{index}}" data-tab="{{item}}"
               style="width: {{width}}" bindtap="tabClick">
-            {{item.seiName}}
+            {{item.label}}
         </view>
         <view class="slider"
               style="left: {{sliderLeft}}%; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>

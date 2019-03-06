@@ -1,2 +1,9 @@
 <!--miniprogram/container/pages/index/index.wxml-->
-<text>miniprogram/container/pages/index/index.wxml</text>
+<view>
+    <navigator url="/container/pages/navbar/navbar">
+        <view class="lee-list">
+            <view>navbar</view>
+            <view><text class='iconfont icon-arrow lee-last'></text></view>
+        </view>
+    </navigator>
+</view>

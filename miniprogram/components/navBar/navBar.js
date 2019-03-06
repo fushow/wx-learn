@@ -6,6 +6,7 @@ Component({
      */
     properties: {
         activeIndex: Number,
+        labelPros:Object,
         tabs: {
             type: Array,
             value: [],
@@ -30,6 +31,14 @@ Component({
                         });
                     }
                 });
+                let arr = [];
+                for (let key in that.data.labelPros) {
+                    let value = that.data.labelPros[key];
+                    arr = that.optionsHadd(key, value)
+                }
+                that.setData({
+                    newList:arr
+                })
             }
         }
 
@@ -41,12 +50,21 @@ Component({
     data: {
         sliderLeft: 0,
         sliderOffset: 0,
-        width:'auto'
+        width:'auto',
+        newList:[]
     },
     /**
      * 组件的方法列表
      */
     methods: {
+        optionsHadd(key, value) {
+            let that = this;
+            let arr = that.data.tabs.map((v) => {
+                v[key] = v[value];
+                return v
+            });
+            return arr
+        },
         tabClick(e) {
             let that = this;
             that.setData({

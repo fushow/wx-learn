@@ -1,1 +1,22 @@
 /**app.wxss**/
+@import "css/iconfont.wxss";
+page{
+    background: #e4e3e3;
+}
+/*列表*/
+.lee-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 2.8;
+    padding: 0 24rpx;
+    border-bottom: 2rpx solid #e4e3e3;
+    background: #fff;
+}
+.lee-head{
+   font-size: 40rpx;
+    margin-right: 16rpx;
+}
+.lee-last{
+    margin-left: 16rpx;
+}
