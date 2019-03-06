@@ -1,0 +1,35 @@
+/* pages/components/navBar.wxss */
+.navbar_box{
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+}
+.scroll-view_H{
+    white-space: nowrap;
+}
+.navbar_item{
+   text-align: center;
+    background: #fff;
+    padding: 24rpx 0;
+    display: inline-block;
+    color: #666;
+}
+.navbar_item.navbar_item_on{
+    color: #d7123d;
+}
+.slider{
+    position: relative;
+    content:" ";
+    width:18%;
+    height:4rpx;
+    background-color:#d7123d;
+    -webkit-transition:-webkit-transform .3s;
+    transition:-webkit-transform .3s;
+    transition:transform .3s;
+    transition:transform .3s,-webkit-transform .3s;
+
+}
+
+
+

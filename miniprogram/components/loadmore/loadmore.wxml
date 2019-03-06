@@ -1,0 +1,5 @@
+<!--components/loadmore/index.wxml-->
+<view class="loadmore" hidden='{{!showThis}}'>
+    <image class="icon" src='../images/loading.gif' hidden='{{!showIcon}}'/>
+    <text>{{text}}</text>
+</view>

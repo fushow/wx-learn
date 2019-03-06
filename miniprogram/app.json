@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "container/pages/index/index",
+    "container/pages/map/map",
+    "container/pages/face/face",
+    "container/pages/rotate/rotate",
+    "container/pages/animation/animation"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "瓶邪",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7f8389",
+    "selectedColor": "#db4e59",
+    "backgroundColor": "#f8f8f8",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "container/pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "container/pages/index/index",
+        "text": "我的"
+      }
+    ]
+  }
+}
