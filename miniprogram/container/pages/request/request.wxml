@@ -1,0 +1,9 @@
+
+<button bindtap='getMainList'>get获取数据</button>
+<button bindtap='postMainList'>post获取数据</button>
+<view class='listBox' wx:if="{{staus}}">
+  <view class='listItem' wx:for="{{getMainList}}" wx:key="{{item.id}}" wx:for-item="list">{{list.title}}</view>
+</view>
+<view class='listBox'>
+  <view class='listItem' wx:for="{{postMainList}}" wx:key="{{item.id}}" wx:for-item="postList">{{postList.catname}}</view>
+</view>
