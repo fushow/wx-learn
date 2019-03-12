@@ -1,11 +1,12 @@
 //app.js
+import restful from 'api/api'
 App({
     onLaunch:()=>{
 
     },
-    globalData:{
-      server_url:'https://www.lee1314.com'
-    },
+    globalData:{},
+    //request
+    restful:restful
 });
 
 

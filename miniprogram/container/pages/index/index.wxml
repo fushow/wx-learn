@@ -1,7 +1,7 @@
 <!--miniprogram/container/pages/index/index.wxml-->
 <view>
     <view class="header">
-        <view class="header-name">lee</view>
+        <view class="header-name">lee&ting</view>
         <view>站在巨人的肩膀上,你可以看得更远!</view>
     </view>
     <navigator url="/container/pages/navbar/navbar">
@@ -15,7 +15,7 @@
     <navigator url="/container/pages/request/request">
         <view class="lee-list">
             <view class="lee-list-item">
-                <view>request请求</view>
+                <view>request</view>
                 <view><text class='iconfont icon-arrow lee-last'></text></view>
             </view>
         </view>

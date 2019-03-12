@@ -68,52 +68,6 @@ function formatDate(inputTime) {
     d = d < 10 ? ('0' + d) : d;
     return y + '-' + m + '-' + d;
 }
-/**
- * 封装微信的的request
- */
-function request(url, data = {}, method = "GET") {
-  return new Promise(function (resolve, reject) {
-    wx.request({
-      url: url,
-      data: data,
-      method: method,
-      header: {
-        'Content-Type': 'application/json',
-        'X-Nideshop-Token': wx.getStorageSync('token')
-      },
-      success: function (res) {
-        console.log("success");
-
-        if (res.statusCode == 200) {
-
-          if (res.data.errno == 401) {
-            //需要登录后才可以操作
-            wx.showModal({
-              title: '',
-              content: '请先登录',
-              success: function (res) {
-                if (res.confirm) {
-                  wx.switchTab({
-                    url: '"container/pages/index/index",'
-                  });
-                }
-              }
-            });
-          } else {
-            resolve(res.data);
-          }
-        } else {
-          reject(res.errMsg);
-        }
-
-      },
-      fail: function (err) {
-        reject(err)
-        console.log("failed")
-      }
-    })
-  });
-}
 //提示成功
 function showSuccessToast(msg) {
   wx.showToast({
@@ -171,10 +125,9 @@ module.exports = {
     formatLocation,
     fib,
     formatDateTime,
-    request,
     showSuccessToast,
     showErrorToast,
     openLoading,
     networkError,
     networkErrorToback
-}
+};

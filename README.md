@@ -9,3 +9,7 @@ onShow: function (options) {
         //your code
     }
 },
+1、input组件丢字问题
+ //获取值是bindinput和bindblur同时用上
+2、服务器地址配置
+//api/api.js 的server-url
