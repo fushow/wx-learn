@@ -17,8 +17,6 @@ onShow: function (options) {
 - // api/api.js 的server-url
 - 3、request (api/api.js)
 - // app.restful.get get请求
-- // app.restful.post post请求
-- // app.restful.put put修改请求
-- // app.restful.remove remove删除请求
+// app.restful.post post请求 // app.restful.put put修改请求// app.restful.remove remove删除请求
 - 4、webstorm支持less小程序开发
 - // 详见https://www.jianshu.com/p/253330cc5a97
