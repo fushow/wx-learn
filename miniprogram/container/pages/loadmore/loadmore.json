@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "loadmore":"../../../components/loadmore/loadmore"
+  },
+  "navigationBarTitleText": "loadmore",
+  "enablePullDownRefresh":true
+}

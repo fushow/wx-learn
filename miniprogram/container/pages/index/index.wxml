@@ -12,10 +12,10 @@
             </view> 
         </view>
     </navigator>
-    <navigator url="/container/pages/request/request">
+    <navigator url="/container/pages/loadmore/loadmore">
         <view class="lee-list">
             <view class="lee-list-item">
-                <view>request</view>
+                <view>loadmore</view>
                 <view><text class='iconfont icon-arrow lee-last'></text></view>
             </view>
         </view>

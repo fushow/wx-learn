@@ -1,0 +1,4 @@
+<view class='listBox'>
+  <view class='listItem' wx:for="{{list}}" wx:key="{{item.id}}" wx:for-item="list">{{index+1}}、{{list.title}}</view>
+</view>
+<loadmore id="loadMoreView" bindloadMoreListener="loadMoreListener"></loadmore>

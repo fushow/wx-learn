@@ -5,7 +5,7 @@ App({
 
     },
     globalData:{},
-    //request
+    //loadmore
     restful:restful
 });
 

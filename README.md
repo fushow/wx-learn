@@ -10,6 +10,11 @@ onShow: function (options) {
     }
 },
 1、input组件丢字问题
- //获取值是bindinput和bindblur同时用上
+ // 获取值是bindinput和bindblur同时用上
 2、服务器地址配置
-//api/api.js 的server-url
+// api/api.js 的server-url
+3、request (api/api.js)
+// app.restful.get get请求
+// app.restful.post post请求
+// app.restful.put put修改请求
+// app.restful.remove remove删除请求

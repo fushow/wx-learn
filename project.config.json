@@ -40,7 +40,7 @@
 				{
 					"id": 1,
 					"name": "地图",
-					"pathName": "container/pages/navbar/navbar",
+					"pathName": "container/pages/loadmore/loadmore",
 					"query": "",
 					"scene": null
 				}

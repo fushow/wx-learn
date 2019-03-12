@@ -1,5 +1,5 @@
 /**app.wxss**/
-@import "css/iconfont.wxss";
+@import "static/css/iconfont.wxss";
 /*列表*/
 .lee-list{
     border-bottom: 2rpx solid #e4e3e3;

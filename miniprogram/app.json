@@ -2,7 +2,7 @@
   "pages": [
     "container/pages/index/index",
     "container/pages/navbar/navbar",
-    "container/pages/request/request",
+    "container/pages/loadmore/loadmore",
     "container/pages/toastDemo/toastDemo"
   ],
   "permission": {

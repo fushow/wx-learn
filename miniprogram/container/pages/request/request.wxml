@@ -1,6 +1,0 @@
-
-<button bindtap='query'>get获取数据</button>
-<text style="font-weight: bold">(post就是app.restful.post... ...)</text>
-<view class='listBox'>
-  <view class='listItem' wx:for="{{list}}" wx:key="{{item.id}}" wx:for-item="list">{{list.title}}</view>
-</view>

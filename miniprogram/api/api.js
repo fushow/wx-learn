@@ -15,10 +15,10 @@ const request = (url, options) => {
             }:{'Content-Type': 'application/json; charset=UTF-8'},
             success(request) {
                 //根据实际返回来的code进行更改
-                // if (request.data.retCode === 200) {
-                //     resolve(request.data)
+                // if (loadmore.data.retCode === 200) {
+                //     resolve(loadmore.data)
                 // } else {
-                //     reject(request.data)
+                //     reject(loadmore.data)
                 // }
                 resolve(request.data)
             },

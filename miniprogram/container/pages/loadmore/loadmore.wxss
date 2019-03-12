@@ -1,10 +1,8 @@
-/* container/pages/request/request.wxss */
+/* container/pages/loadmore/loadmore.wxss */
 .listBox{
-  margin-top: 5%;
-  border-top: 8px solid #F8F8F8;
+  padding: 32rpx;
 }
 .listItem{
-  width:95%;
   border-bottom:1px solid #f5f5f5;
   padding:3%;
   white-space: nowrap;
