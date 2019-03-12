@@ -36,4 +36,12 @@
             </view>
         </view>
     </navigator>
+    <navigator url="/container/pages/upload/upload">
+        <view class="lee-list">
+            <view class="lee-list-item">
+                <view>upload</view>
+                <view><text class='iconfont icon-arrow lee-last'></text></view>
+            </view>
+        </view>
+    </navigator>
 </view>

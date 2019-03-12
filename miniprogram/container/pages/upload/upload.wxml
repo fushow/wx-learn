@@ -1,0 +1,10 @@
+<!--miniprogram/container/pages/upload/upload.wxml-->
+<view class="wrap">
+    <view  wx:if="{{files && files.length>0}}" class="img-box">
+        <view class="upload-image" wx:for="{{files}}" wx:key="index">
+            <image src="{{item}}" mode="aspectFit"/>
+        </view>
+    </view>
+
+    <view class="iconfont icon-pluslarge upload-btn" bindtap="uploadImg"></view>
+</view>

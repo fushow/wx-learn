@@ -4,7 +4,8 @@
     "container/pages/navbar/navbar",
     "container/pages/loadmore/loadmore",
     "container/pages/toastDemo/toastDemo",
-    "container/pages/form/form"
+    "container/pages/form/form",
+    "container/pages/upload/upload"
   ],
   "permission": {
     "scope.userLocation": {

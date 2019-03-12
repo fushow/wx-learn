@@ -40,7 +40,7 @@
 				{
 					"id": 1,
 					"name": "调试页",
-					"pathName": "container/pages/form/form",
+					"pathName": "container/pages/upload/upload",
 					"query": "",
 					"scene": null
 				}

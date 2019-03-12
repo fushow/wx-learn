@@ -1,4 +1,4 @@
-const app = getApp();
+const app = getApp({allowDefault: true});
 const upload = {
     chooseImage:({sizeType = ['original'],sourceType = ['album', 'camera'], count = 1})=>{
         return new Promise((resolve,reject)=>{
@@ -24,7 +24,7 @@ const upload = {
      * @param {Object}  header        HTTP 请求 Header, header 中不能设置 Referer
      * @param {Object}  formData      HTTP 请求中其他额外的 form data
      */
-    uploadFile:({files = [],name = 'file',formData = {}, header = {},dir = '',url = `${app.globalData.server_url}`})=>{
+    uploadFile:({files = [],name = 'file',formData = {}, header = {},dir = '',url = `${app.server_url}`})=>{
         return new Promise((resolve,reject)=>{
             if (files && files instanceof Array && files.length>0){
                 let promiseList=[];
@@ -58,6 +58,4 @@ const upload = {
         })
     }
 };
-export  default {
-   upload
-}
+export  default upload
