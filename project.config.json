@@ -39,8 +39,8 @@
 				},
 				{
 					"id": 1,
-					"name": "地图",
-					"pathName": "container/pages/loadmore/loadmore",
+					"name": "调试页",
+					"pathName": "container/pages/form/form",
 					"query": "",
 					"scene": null
 				}

@@ -3,7 +3,8 @@
     "container/pages/index/index",
     "container/pages/navbar/navbar",
     "container/pages/loadmore/loadmore",
-    "container/pages/toastDemo/toastDemo"
+    "container/pages/toastDemo/toastDemo",
+    "container/pages/form/form"
   ],
   "permission": {
     "scope.userLocation": {
@@ -14,7 +15,7 @@
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fc775d",
-    "navigationBarTitleText": "瓶邪 Lee",
+    "navigationBarTitleText": "Lee&Ting 小程序",
     "navigationBarTextStyle": "white"
   }
 }

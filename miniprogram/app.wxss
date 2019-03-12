@@ -1,5 +1,8 @@
 /**app.wxss**/
 @import "static/css/iconfont.wxss";
+page{
+    font-size: 28rpx;
+}
 /*列表*/
 .lee-list{
     border-bottom: 2rpx solid #e4e3e3;

@@ -23,7 +23,15 @@
     <navigator url="/container/pages/toastDemo/toastDemo">
         <view class="lee-list">
             <view class="lee-list-item">
-                <view>Toast</view>
+                <view>toast</view>
+                <view><text class='iconfont icon-arrow lee-last'></text></view>
+            </view>
+        </view>
+    </navigator>
+    <navigator url="/container/pages/form/form">
+        <view class="lee-list">
+            <view class="lee-list-item">
+                <view>form</view>
                 <view><text class='iconfont icon-arrow lee-last'></text></view>
             </view>
         </view>

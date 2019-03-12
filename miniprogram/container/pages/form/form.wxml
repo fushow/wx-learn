@@ -1,0 +1,23 @@
+<!--miniprogram/container/pages/form/form.wxml-->
+<form bindsubmit="formSubmit" bindreset="formReset">
+    <view class="lee-section">
+        <view class="lee-section-label">用户名</view>
+        <input name="username" placeholder="请填写用户名" />
+    </view>
+    <view class="lee-section">
+        <view class="lee-section-label">密码</view>
+        <input password="true" name="pwd" placeholder="请填写密码" />
+    </view>
+    <view class="lee-section">
+        <view class="lee-section-label">电子邮件</view>
+        <input name="email" placeholder="请填写电子邮件" />
+    </view>
+    <view class="lee-section">
+        <view class="lee-section-label">身份证号码</view>
+        <input name="idcard" placeholder="请填写身份证号码" />
+    </view>
+    <view class="btn-area">
+        <button form-type="submit">提交</button>
+        <button form-type="reset">重置</button>
+    </view>
+</form>

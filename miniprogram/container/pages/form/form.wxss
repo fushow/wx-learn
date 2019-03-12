@@ -1,0 +1,16 @@
+/* miniprogram/container/pages/form/form.wxss */
+.lee-section{
+    display: flex;
+    padding: 24rpx;
+}
+.lee-section-label{
+    width: 200rpx;
+    text-align: left;
+}
+.btn-area{
+    display: flex;
+}
+.btn-area button{
+    width: 50%;
+    margin: 32rpx;
+}

@@ -1,6 +1,5 @@
 /**
  * 表单验证
- *https://github.com/skyvow/wx-extend/blob/master/docs/components/validate.md
  * @param {Object} rules 验证字段的规则
  * @param {Object} messages 验证字段的提示信息
  *
